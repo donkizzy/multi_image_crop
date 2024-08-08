@@ -7,7 +7,6 @@ Future<dynamic> showLoaderDialog(
   return showDialog(
     context: context,
     barrierDismissible: false,
-    useRootNavigator: true,
     builder: (context) => AlertDialog(
       backgroundColor: Colors.white.withOpacity(0.8),
       title: const Center(child: CircularProgressIndicator(),),
